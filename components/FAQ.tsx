@@ -52,7 +52,7 @@ const FAQ: React.FC = () => {
                 {/* Browse All Topics Link */}
                 <div className="text-center mt-12">
                     <a
-                        href={getLocalizedPath("/keywords")}
+                        href="#features"
                         className="inline-flex items-center gap-2 text-[#d14d28] hover:text-[#b94526] transition-colors"
                     >
                         {content.footer.topics} →

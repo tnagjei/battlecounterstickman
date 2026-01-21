@@ -24,21 +24,6 @@
             "permanent": true
         },
         {
-            "source": "/keywords/index.html",
-            "destination": "/keywords",
-            "permanent": true
-        },
-        {
-            "source": "/fi/keywords/index.html",
-            "destination": "/fi/keywords",
-            "permanent": true
-        },
-        {
-            "source": "/sv/keywords/index.html",
-            "destination": "/sv/keywords",
-            "permanent": true
-        },
-        {
             "source": "/about.html",
             "destination": "/about",
             "permanent": true
@@ -62,6 +47,12 @@
             "source": "/blog.html",
             "destination": "/blog",
             "permanent": true
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/keywords(/.*)?",
+            "destination": "/index.html"
         }
     ]
 }

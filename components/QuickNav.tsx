@@ -15,42 +15,42 @@ const QuickNav: React.FC = () => {
       description: "Complete build guide for the main project car",
       icon: Car,
       color: "text-rose-300",
-      href: getLocalizedPath("/keywords/corris-rivett")
+      href: "#units"
     },
     {
       title: content.quickNav.items.partsDatabase,
       description: "All 200+ parts catalog with locations and guides",
       icon: Wrench,
       color: "text-purple-300",
-      href: getLocalizedPath("/keywords/mods")
+      href: "#wiki"
     },
     {
       title: content.quickNav.items.beginnerGuide,
       description: "First 30 minutes walkthrough",
       icon: BookOpen,
       color: "text-cyan-300",
-      href: getLocalizedPath("/keywords/how-to-get-car")
+      href: "#features"
     },
     {
       title: content.quickNav.items.racingEvents,
       description: "Ice track racing and rally competitions",
       icon: Flag,
       color: "text-slate-200",
-      href: getLocalizedPath("/keywords/game")
+      href: "#videos"
     },
     {
       title: content.quickNav.items.jobsMoney,
       description: "Fastest earning methods",
       icon: Briefcase,
       color: "text-amber-300",
-      href: getLocalizedPath("/keywords/job")
+      href: "#play"
     },
     {
       title: content.quickNav.items.winterSurvival,
       description: "Body temperature and survival mechanics",
       icon: Snowflake,
       color: "text-cyan-200",
-      href: getLocalizedPath("/keywords/body-temp")
+      href: "#play"
     }
   ];
 

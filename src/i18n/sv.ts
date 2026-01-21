@@ -11,9 +11,9 @@ export const sv: I18nContent = {
 
     // Meta & SEO
     meta: {
-        title: 'My Winter Car Wiki 2026 - Bästa Guide och Resurser',
-        description: 'Utforska den ultimata My Winter Car Wikin med kompletta byggguider, 200+ delar databas, överlevnadstips och videohandledningar!',
-        siteName: 'My Winter Car Wiki',
+        title: 'Battle Counter Stickman Wiki 2026 - Bästa Guide och Resurser',
+        description: 'Utforska den ultimata Battle Counter Stickman Wikin med kompletta taktiska guider, enhetsstatistik, strategitips och videohandledningar!',
+        siteName: 'Battle Counter Stickman Guide',
     },
 
     // Navbar
@@ -29,9 +29,9 @@ export const sv: I18nContent = {
 
     // Hero Section
     hero: {
-        title: 'My Winter Car Wiki',
-        subtitle: 'Den Ultimata Guiden och Databasen',
-        tagline: 'Byggguider • Delar • Överlevnadstips',
+        title: 'Battle Counter Stickman Wiki',
+        subtitle: 'Den Ultimata Taktikguiden och Enhetsstatistiken',
+        tagline: 'Taktikguider • Enheter • Strategitips',
         ctaPrimary: 'Bläddra Guider',
         ctaSecondary: 'Visa på Steam',
     },
@@ -52,12 +52,12 @@ export const sv: I18nContent = {
     // Features Section
     features: {
         title: 'Allt Du Behöver',
-        subtitle: 'Kompletta guider för My Winter Car',
-        buildGuides: 'Byggguider',
-        partsDatabase: 'Delar Databas',
-        survival: 'Överlevnadsguide',
-        maps: 'Interaktiva Kartor',
-        jobs: 'Jobb och Pengaguider',
+        subtitle: 'Kompletta guider för Battle Counter Stickman',
+        buildGuides: 'Taktikguider',
+        partsDatabase: 'Enhetsstatistik',
+        survival: 'Strategiguide',
+        maps: 'Nivåguider',
+        jobs: 'Nedladdningsguider',
         community: 'Gemenskapstips',
     },
 
@@ -102,13 +102,13 @@ export const sv: I18nContent = {
 
     // WhatIs Section
     whatIs: {
-        title: 'Vad är My Winter Car?',
-        description1: 'My Winter Car är ett överlevnads- och bilbyggnadssimulationsspel som utspelar sig på den finska landsbygden vintern 1992.',
-        description2: 'Spelaren måste överleva den hårda finska vintern medan de bygger och underhåller sin Corris Rivett.',
-        survivalSim: 'Överlevnadssim',
-        carBuilding: 'Bilbyggnad',
-        finnishWinter: 'Finsk Vinter',
-        earlyAccess: 'Early Access',
+        title: 'Vad är Battle Counter Stickman?',
+        description1: 'Battle Counter Stickman är ett spännande strategispel där du leder stickman-arméer till seger.',
+        description2: 'Spelaren måste bemästra olika enheter och taktiker för att övervinna varje utmanande nivå.',
+        survivalSim: 'Strategi',
+        carBuilding: 'Simulering',
+        finnishWinter: 'Stickman-strid',
+        earlyAccess: 'Tillgänglig',
         gameStats: 'Spelstatistik',
         release: 'Utgivning',
         developer: 'Utvecklare',
@@ -139,7 +139,7 @@ export const sv: I18nContent = {
     // About Section
     about: {
         title: 'Om Denna Wiki',
-        description: 'My Winter Car Wiki är en gemenskapsdriven resurs för att hjälpa spelare.',
+        description: 'Battle Counter Stickman Wiki är en gemenskapsdriven resurs för att hjälpa spelare.',
         madeWithLove: 'Gjord med kärlek av gemenskapen, för gemenskapen.',
         getInTouch: 'Kontakta Oss',
         joinDiscord: 'Gå med i vår Discord',
@@ -149,7 +149,7 @@ export const sv: I18nContent = {
 
     // Footer
     footer: {
-        copyright: '© {year} My Winter Car Wiki. Inte affilierad med spelutvecklarna.',
+        copyright: '© {year} Battle Counter Stickman Guide. Inte affilierad med spelutvecklarna.',
         about: 'Om Oss',
         blog: 'Blogg',
         help: 'Hjälp',

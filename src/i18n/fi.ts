@@ -11,9 +11,9 @@ export const fi: I18nContent = {
 
     // Meta & SEO
     meta: {
-        title: 'My Winter Car Wiki 2026 - Paras Opas ja Resurssit',
-        description: 'Tutustu kattavaan My Winter Car Wikiin: täydelliset rakennusoppaat, 200+ osatietokanta, selviytymisvinkit ja video-oppaat!',
-        siteName: 'My Winter Car Wiki',
+        title: 'Battle Counter Stickman Wiki 2026 - Paras Opas ja Resurssit',
+        description: 'Tutustu kattavaan Battle Counter Stickman Wikiin: täydelliset taktiikkaoppaat, yksikkötiedot, selviytymisvinkit ja video-oppaat!',
+        siteName: 'Battle Counter Stickman Opas',
     },
 
     // Navbar
@@ -29,9 +29,9 @@ export const fi: I18nContent = {
 
     // Hero Section
     hero: {
-        title: 'My Winter Car Wiki',
-        subtitle: 'Täydellinen Opas ja Tietokanta',
-        tagline: 'Rakennusoppaat • Osat • Selviytymisvinkit',
+        title: 'Battle Counter Stickman Wiki',
+        subtitle: 'Lopullinen Taktiikkaopas ja Yksikkötiedot',
+        tagline: 'Taktiikkaoppaat • Yksiköt • Strategiavinkit',
         ctaPrimary: 'Selaa Oppaita',
         ctaSecondary: 'Näytä Steamissa',
     },
@@ -52,12 +52,12 @@ export const fi: I18nContent = {
     // Features Section
     features: {
         title: 'Kaikki Mitä Tarvitset',
-        subtitle: 'Täydelliset oppaat My Winter Car -peliin',
-        buildGuides: 'Rakennusoppaat',
-        partsDatabase: 'Osatietokanta',
-        survival: 'Selviytymisopas',
-        maps: 'Interaktiiviset Kartat',
-        jobs: 'Työ- ja Rahaoppaat',
+        subtitle: 'Täydelliset oppaat Battle Counter Stickman -peliin',
+        buildGuides: 'Taktiikkaoppaat',
+        partsDatabase: 'Yksikkötiedot',
+        survival: 'Strategiaopas',
+        maps: 'Kenttäoppaat',
+        jobs: 'Latausoppaat',
         community: 'Yhteisön Vinkit',
     },
 
@@ -102,13 +102,13 @@ export const fi: I18nContent = {
 
     // WhatIs Section
     whatIs: {
-        title: 'Mikä on My Winter Car?',
-        description1: 'My Winter Car on selviytymis- ja autonrakennussimulaatiopeli, joka sijoittuu Suomen maaseudulle talvella 1992.',
-        description2: 'Pelaajan on selvittävä ankarassa suomalaisessa talvessa samalla rakentaen Corris Rivett -autoa.',
-        survivalSim: 'Selviytymissim',
-        carBuilding: 'Autonrakennus',
-        finnishWinter: 'Suomalainen Talvi',
-        earlyAccess: 'Aikainen Pääsy',
+        title: 'Mikä on Battle Counter Stickman?',
+        description1: 'Battle Counter Stickman on jännittävä strategiapeli, jossa johdat stickman-armeijoita voittoon.',
+        description2: 'Pelaajan on hallittava erilaisia yksiköitä ja taktiikoita voittaakseen jokaisen haastavan tason.',
+        survivalSim: 'Strategia',
+        carBuilding: 'Simulaatio',
+        finnishWinter: 'Stickman-taistelu',
+        earlyAccess: 'Saatavilla',
         gameStats: 'Pelitiedot',
         release: 'Julkaisu',
         developer: 'Kehittäjä',
@@ -139,7 +139,7 @@ export const fi: I18nContent = {
     // About Section
     about: {
         title: 'Tietoa Tästä Wikistä',
-        description: 'My Winter Car Wiki on yhteisövetoinen resurssi pelaajien auttamiseen.',
+        description: 'Battle Counter Stickman Wiki on yhteisövetoinen resurssi pelaajien auttamiseen.',
         madeWithLove: 'Tehty rakkaudella yhteisölle, yhteisön toimesta.',
         getInTouch: 'Ota Yhteyttä',
         joinDiscord: 'Liity Discordiimme',
@@ -149,7 +149,7 @@ export const fi: I18nContent = {
 
     // Footer
     footer: {
-        copyright: '© {year} My Winter Car Wiki. Ei liity pelin kehittäjiin.',
+        copyright: '© {year} Battle Counter Stickman Opas. Ei liity pelin kehittäjiin.',
         about: 'Tietoa',
         blog: 'Blogi',
         help: 'Ohje',

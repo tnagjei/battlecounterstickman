@@ -36,56 +36,7 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
 
-                {/* Partner Links Section */}
-                <div className="mt-8 pt-6 border-t border-white/5">
-                    <p className="text-center text-[#9b8f82] text-xs uppercase tracking-wider mb-4">Partners & Friends</p>
-                    <div className="flex justify-center flex-wrap gap-3 max-w-3xl mx-auto">
-                        <a href="https://fast-wan.com/" target="_blank" rel="noopener noreferrer"
-                            className="px-3 py-1.5 bg-white/5 rounded-full text-[#b9ac9e] text-xs hover:bg-white/10 hover:text-[#fff7ea] transition-all">
-                            Fast Wan
-                        </a>
-                        <a href="https://aitoolcenter.com/" target="_blank" rel="noopener noreferrer"
-                            className="px-3 py-1.5 bg-white/5 rounded-full text-[#b9ac9e] text-xs hover:bg-white/10 hover:text-[#fff7ea] transition-all">
-                            AI Tool Center
-                        </a>
-                        <a href="https://www.vkmoai.com" target="_blank" rel="noopener noreferrer"
-                            className="px-3 py-1.5 bg-white/5 rounded-full text-[#b9ac9e] text-xs hover:bg-white/10 hover:text-[#fff7ea] transition-all">
-                            VKMO AI
-                        </a>
-                        <a href="https://whatisaitools.com/" target="_blank" rel="noopener noreferrer"
-                            className="px-3 py-1.5 bg-white/5 rounded-full text-[#b9ac9e] text-xs hover:bg-white/10 hover:text-[#fff7ea] transition-all">
-                            What Is AI Tools
-                        </a>
-                        <a href="https://www.seewhatnewai.com" target="_blank" rel="noopener noreferrer"
-                            className="px-3 py-1.5 bg-white/5 rounded-full text-[#b9ac9e] text-xs hover:bg-white/10 hover:text-[#fff7ea] transition-all">
-                            See What New AI
-                        </a>
-                        <a href="https://www.aigotools.com" target="_blank" rel="noopener noreferrer"
-                            className="px-3 py-1.5 bg-white/5 rounded-full text-[#b9ac9e] text-xs hover:bg-white/10 hover:text-[#fff7ea] transition-all">
-                            AigoTools
-                        </a>
-                        <a href="https://aitoolsss.com" target="_blank" rel="noopener noreferrer"
-                            className="px-3 py-1.5 bg-white/5 rounded-full text-[#b9ac9e] text-xs hover:bg-white/10 hover:text-[#fff7ea] transition-all">
-                            AIToolsss
-                        </a>
-                    </div>
 
-                    {/* Badge Links */}
-                    <div className="mt-6 flex justify-center flex-wrap gap-4 items-center">
-                        <a href="https://www.ontoplist.com/web-design-companies/" target="_blank" rel="noopener noreferrer"
-                            className="opacity-60 hover:opacity-100 transition-opacity">
-                            <img src="https://www.ontoplist.com/images/ontoplist31.png?id=69578edee5c0d" alt="OnToplist" className="h-8" />
-                        </a>
-                        <a href="https://deeplaunch.io" target="_blank" rel="noopener noreferrer"
-                            className="opacity-60 hover:opacity-100 transition-opacity">
-                            <img src="https://deeplaunch.io/badge/badge_dark.svg" alt="DeepLaunch.io" className="h-8" />
-                        </a>
-                        <a href="https://submito.net" target="_blank" rel="noopener noreferrer"
-                            className="opacity-60 hover:opacity-100 transition-opacity">
-                            <img src="https://submito.net/badge/listed-light.svg" alt="Submito" className="h-8" />
-                        </a>
-                    </div>
-                </div>
 
                 {/* Contact */}
                 <div className="mt-6 flex justify-center items-center gap-2 text-[#cbbfb0] text-sm">

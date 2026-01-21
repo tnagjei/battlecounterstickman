@@ -14,7 +14,7 @@ const Features: React.FC = () => {
             icon: <BookOpen className="w-8 h-8" />,
             title: content.features.buildGuides,
             description: "Level-by-level walkthroughs and winning tactics",
-            href: getLocalizedPath("/keywords/strategy-guides"),
+            href: "#wiki",
             accent: "text-[#d14d28]",
             hover: "group-hover:text-[#d14d28]"
         },
@@ -22,7 +22,7 @@ const Features: React.FC = () => {
             icon: <Database className="w-8 h-8" />,
             title: content.features.partsDatabase,
             description: "Complete database of all units with stats and abilities",
-            href: getLocalizedPath("/keywords/unit-database"),
+            href: "#units",
             accent: "text-[#1c7c7b]",
             hover: "group-hover:text-[#1c7c7b]"
         },
@@ -30,7 +30,7 @@ const Features: React.FC = () => {
             icon: <Lightbulb className="w-8 h-8" />,
             title: content.features.survival,
             description: "Pro tips to beat the hardest levels",
-            href: getLocalizedPath("/keywords/level-tips"),
+            href: "#faq",
             accent: "text-[#c08b2a]",
             hover: "group-hover:text-[#c08b2a]"
         },
@@ -38,7 +38,7 @@ const Features: React.FC = () => {
             icon: <Map className="w-8 h-8" />,
             title: content.features.maps,
             description: "Best unit placements and counter strategies",
-            href: getLocalizedPath("/keywords/formations"),
+            href: "#videos",
             accent: "text-[#4f6b5a]",
             hover: "group-hover:text-[#4f6b5a]"
         },
@@ -46,7 +46,7 @@ const Features: React.FC = () => {
             icon: <Download className="w-8 h-8" />,
             title: content.features.jobs,
             description: "Verified download sources for PC, Steam, and APK",
-            href: getLocalizedPath("/keywords/download"),
+            href: "#play",
             accent: "text-[#d14d28]",
             hover: "group-hover:text-[#d14d28]"
         },
@@ -54,7 +54,7 @@ const Features: React.FC = () => {
             icon: <Users className="w-8 h-8" />,
             title: content.features.community,
             description: "Discover tips and tricks from experienced players",
-            href: getLocalizedPath("/keywords/community"),
+            href: "#faq",
             accent: "text-[#1c7c7b]",
             hover: "group-hover:text-[#1c7c7b]"
         }
@@ -96,7 +96,7 @@ const Features: React.FC = () => {
                 {/* Browse All Topics Link */}
                 <div className="text-center mt-12">
                     <a
-                        href={getLocalizedPath("/keywords")}
+                        href="#features"
                         className="inline-flex items-center gap-2 px-6 py-3 btn-secondary rounded-full font-semibold transition-colors"
                     >
                         {content.footer.topics} →

@@ -14,7 +14,7 @@ const WikiPreview: React.FC = () => {
             icon: <Database className="w-8 h-8" />,
             title: content.wikiPreview.unitStats,
             description: content.wikiPreview.unitStatsDesc,
-            href: getLocalizedPath("/keywords/unit-stats"),
+            href: "#units",
             color: "text-[#1c7c7b]",
             borderColor: "hover:border-[#1c7c7b]/50"
         },
@@ -22,7 +22,7 @@ const WikiPreview: React.FC = () => {
             icon: <BookOpen className="w-8 h-8" />,
             title: content.wikiPreview.strategyGuide,
             description: content.wikiPreview.strategyGuideDesc,
-            href: getLocalizedPath("/keywords/strategy"),
+            href: "#features",
             color: "text-[#4f6b5a]",
             borderColor: "hover:border-[#4f6b5a]/50"
         },
@@ -30,7 +30,7 @@ const WikiPreview: React.FC = () => {
             icon: <Download className="w-8 h-8" />,
             title: content.wikiPreview.downloadLinks,
             description: content.wikiPreview.downloadLinksDesc,
-            href: getLocalizedPath("/keywords/download"),
+            href: "#play",
             color: "text-[#d14d28]",
             borderColor: "hover:border-[#d14d28]/50"
         },
