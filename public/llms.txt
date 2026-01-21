@@ -1,34 +1,26 @@
-# My Winter Car Wiki
-> The ultimate guide and resource hub for My Winter Car game
+# Battle Counter Stickman Guide
+> The ultimate strategy guide and resource hub for Battle Counter Stickman game
 
 ## About
-My Winter Car Wiki (mywintercar.info) is a comprehensive resource for the My Winter Car game, providing detailed guides, a parts database, and survival tips for building your Corris Rivett.
+Battle Counter Stickman Guide (battlecounterstickman.online) is a comprehensive resource for the Battle Counter Stickman game, providing unit stats, strategy guides, and download links.
 
 ## Main Content
-- Complete Corris Rivett build guides
-- 200+ parts database with locations and prices
-- Winter survival mechanics and strategies
-- Job and money-making guides
-- Community resources and tips
+- Complete unit database with HP, attack, and cost stats
+- Strategy guides and walkthroughs
+- Download links for PC, Steam, and APK
+- Unblocked browser play options
+- Community tips and tricks
 
-## Keyword Pages
-Browse all topics at: https://mywintercar.info/keywords/
-
-### Categories:
-- Game & Basics: game, mwc, wiki, steam, release, save
-- Vehicles: corris-rivett, car-location, how-to-get-car
-- Jobs & Economy: job, work, main-job, taxi, firewood
-- Survival: body-temp, sauna, cant-sleep, problem
-- Tools & Items: phone, phone-numbers, mwc-map
-- Mods & Tools: mods, nexus-mods, mwc-loader, mwc-editor
-- Characters: reijo, sorbet
-- Community: reddit
+## Features
+- Unit Stats: Special Forces, Sniper, Heavy Tank, Combat Medic, Grenadier, Commander
+- Game Modes: Campaign, Versus, Survival
+- Platforms: PC, Steam, Mobile
 
 ## Website
-https://mywintercar.info
+https://battlecounterstickman.online
 
 ## Contact
 For questions or contributions, visit our website.
 
 ## License
-Content is provided for informational purposes about the My Winter Car game.
+Content is provided for informational purposes about the Battle Counter Stickman game.

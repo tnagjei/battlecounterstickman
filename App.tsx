@@ -7,7 +7,10 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import WhatIs from './components/WhatIs';
 import Features from './components/Features';
+import Videos from './components/Videos';
 import WikiPreview from './components/WikiPreview';
+import UnitShowcase from './components/UnitShowcase';
+import PlayUnblocked from './components/PlayUnblocked';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import FloatingMenu from './components/FloatingMenu';
@@ -15,7 +18,7 @@ import FloatingMenu from './components/FloatingMenu';
 const App: React.FC = () => {
   return (
     <LanguageProvider>
-      <div className="min-h-screen text-slate-100">
+      <div className="min-h-screen text-ink">
         <Navbar />
 
         <main>
@@ -23,11 +26,17 @@ const App: React.FC = () => {
           <Hero />
           {/* Section 2: What is Battle Counter Stickman? */}
           <WhatIs />
-          {/* Section 3: Game Features & Updates */}
+          {/* Section 3: Video Guides */}
+          <Videos />
+          {/* Section 4: Game Features & Updates */}
           <Features />
-          {/* Section 4: Unit Database & Strategy */}
+          {/* Section 5: Unit Database & Strategy Cards */}
           <WikiPreview />
-          {/* Section 5: FAQ */}
+          {/* Section 6: Unit Showcase Grid */}
+          <UnitShowcase />
+          {/* Section 7: Play Unblocked (iframe) */}
+          <PlayUnblocked />
+          {/* Section 8: FAQ */}
           <FAQ />
         </main>
 

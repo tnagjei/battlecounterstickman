@@ -15,32 +15,32 @@ const WikiPreview: React.FC = () => {
             title: content.wikiPreview.unitStats,
             description: content.wikiPreview.unitStatsDesc,
             href: getLocalizedPath("/keywords/unit-stats"),
-            color: "text-cyan-300",
-            borderColor: "hover:border-cyan-400/50"
+            color: "text-[#1c7c7b]",
+            borderColor: "hover:border-[#1c7c7b]/50"
         },
         {
             icon: <BookOpen className="w-8 h-8" />,
             title: content.wikiPreview.strategyGuide,
             description: content.wikiPreview.strategyGuideDesc,
             href: getLocalizedPath("/keywords/strategy"),
-            color: "text-purple-300",
-            borderColor: "hover:border-purple-400/50"
+            color: "text-[#4f6b5a]",
+            borderColor: "hover:border-[#4f6b5a]/50"
         },
         {
             icon: <Download className="w-8 h-8" />,
             title: content.wikiPreview.downloadLinks,
             description: content.wikiPreview.downloadLinksDesc,
             href: getLocalizedPath("/keywords/download"),
-            color: "text-rose-300",
-            borderColor: "hover:border-rose-400/50"
+            color: "text-[#d14d28]",
+            borderColor: "hover:border-[#d14d28]/50"
         },
         {
             icon: <Play className="w-8 h-8" />,
             title: content.wikiPreview.unblockedPlay,
             description: content.wikiPreview.unblockedPlayDesc,
             href: "#play",
-            color: "text-amber-300",
-            borderColor: "hover:border-amber-400/50"
+            color: "text-[#c08b2a]",
+            borderColor: "hover:border-[#c08b2a]/50"
         }
     ];
 
@@ -48,10 +48,10 @@ const WikiPreview: React.FC = () => {
         <section id="wiki" className="py-12 md:py-20 px-4 section-cut">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-8 md:mb-12">
-                    <h2 className="text-2xl md:text-4xl font-display text-white mb-2 md:mb-4">
+                    <h2 className="text-2xl md:text-4xl font-display text-ink mb-2 md:mb-4">
                         {content.wikiPreview.title}
                     </h2>
-                    <p className="text-slate-400 text-sm md:text-lg max-w-2xl mx-auto">
+                    <p className="text-soft text-sm md:text-lg max-w-2xl mx-auto">
                         {content.wikiPreview.subtitle}
                     </p>
                 </div>
@@ -61,16 +61,16 @@ const WikiPreview: React.FC = () => {
                         <a
                             key={index}
                             href={card.href}
-                            className={`panel panel-strong rounded-2xl p-5 md:p-6 border border-white/10 ${card.borderColor} transition-all hover:-translate-y-1 block animate-fade-up`}
+                            className={`panel panel-strong card-cut rounded-2xl p-5 md:p-6 border border-[#1f1b16]/10 ${card.borderColor} transition-all hover:-translate-y-1 block animate-fade-up`}
                             style={{ animationDelay: `${index * 0.1}s` }}
                         >
-                            <div className={`w-12 h-12 md:w-14 md:h-14 bg-black/40 rounded-xl flex items-center justify-center ${card.color} mb-4`}>
+                            <div className={`w-12 h-12 md:w-14 md:h-14 bg-[#1f1b16]/10 rounded-xl flex items-center justify-center ${card.color} mb-4`}>
                                 {card.icon}
                             </div>
-                            <h3 className="text-lg md:text-xl font-semibold text-white mb-2">
+                            <h3 className="text-lg md:text-xl font-semibold text-ink mb-2">
                                 {card.title}
                             </h3>
-                            <p className="text-slate-400 text-xs md:text-sm leading-relaxed">
+                            <p className="text-soft text-xs md:text-sm leading-relaxed">
                                 {card.description}
                             </p>
                         </a>

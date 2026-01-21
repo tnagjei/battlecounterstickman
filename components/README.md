@@ -14,9 +14,14 @@
 - HowItWorks.tsx：使用流程步骤区
 - LanguageSuggestion.tsx：语言切换提示条
 - Navbar.tsx：顶部导航栏
+- PlayUnblocked.tsx：游戏嵌入与提示区块
+- PopularGuides.tsx：热门攻略列表与入口
+- QuickLinks.tsx：侧边快速链接导航
 - QuickNav.tsx：快捷入口导航
 - Testimonials.tsx：用户评价区块
+- UnitShowcase.tsx：单位展示网格区块
 - Updates.tsx：更新信息/公告卡片
 - Videos.tsx：视频展示区
 - WhatIs.tsx：产品/站点简介区
 - WhyUs.tsx：核心卖点与优势区
+- WikiPreview.tsx：Wiki 预览卡片区

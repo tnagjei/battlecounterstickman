@@ -26,20 +26,12 @@ const getLanguageCode = (language: string): string => {
 
 const videos: VideoItem[] = [
     {
-        id: "8pHSfmcWUqk",
-        title: "My Winter Car - Getting Started Guide",
-        channel: "Gaming Channel",
+        id: "8sdb3j5Awi8",
+        title: "battle simulator counter stickman",
+        channel: "night gaming",
         language: "English",
-        publishDate: "2025-12-29T00:00:00+00:00",
-        description: "Complete beginner's guide to My Winter Car. Learn the basics of survival and car building."
-    },
-    {
-        id: "OganjXuxsC0",
-        title: "My Winter Car - Corris Rivett Build Tutorial",
-        channel: "Gaming Channel",
-        language: "English",
-        publishDate: "2025-12-30T00:00:00+00:00",
-        description: "Step-by-step tutorial on building your first Corris Rivett car from scratch."
+        publishDate: "2018-03-08T00:00:00+00:00",
+        description: "Gameplay footage featuring Level 19 through Level 24."
     }
 ];
 
@@ -105,6 +97,8 @@ const VideoCard: React.FC<VideoCardProps> = ({ video }) => {
 
 const Videos: React.FC = () => {
     const content = useContent();
+    const isSingleVideo = videos.length === 1;
+
     return (
         <section id="videos" className="py-12 md:py-20 px-4 section-cut">
             <div className="max-w-7xl mx-auto">
@@ -117,7 +111,13 @@ const Videos: React.FC = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-4xl mx-auto">
+                <div
+                    className={
+                        isSingleVideo
+                            ? "grid grid-cols-1 gap-4 md:gap-8 max-w-5xl mx-auto"
+                            : "grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-4xl mx-auto"
+                    }
+                >
                     {videos.map((video) => (
                         <VideoCard key={video.id} video={video} />
                     ))}

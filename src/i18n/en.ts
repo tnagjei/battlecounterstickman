@@ -209,6 +209,38 @@ export const en = {
         unblockedPlay: 'Play Unblocked',
         unblockedPlayDesc: 'Working browser versions to play at school or work',
     },
+
+    // Unit Showcase Section
+    unitShowcase: {
+        title: 'Meet the Units',
+        subtitle: 'Discover all playable units with their stats and abilities',
+        viewDetails: 'View Details',
+        viewAll: 'View All Units',
+    },
+
+    // Play Unblocked Section
+    playUnblocked: {
+        title: 'Play Battle Counter Stickman Unblocked',
+        subtitle: 'Play directly in your browser - no download required',
+        gameTitle: 'Battle Counter Stickman',
+        clickToPlay: 'Click the button below to start playing',
+        startGame: 'Start Game',
+        refresh: 'Refresh',
+        downloadFull: 'Download Full Version',
+        helpText: 'Issues playing? Try refreshing or check our Download Guide.',
+        downloadGuide: 'View Download Guide →',
+    },
+
+    // Quick Links Sidebar
+    quickLinks: {
+        title: 'Quick Links',
+        walkthroughs: 'Walkthroughs',
+        unitDatabase: 'Unit Database',
+        playNow: 'Play Now',
+        downloadApk: 'Download APK',
+        strategyGuide: 'Strategy Guide',
+        community: 'Community',
+    },
 };
 
 export type I18nContent = typeof en;

@@ -197,4 +197,50 @@ export const sv: I18nContent = {
         switchTo: 'Byt till {lang}',
         stay: 'Stanna',
     },
+
+    // Wiki Preview Section
+    wikiPreview: {
+        title: 'Unit Database & Strategy',
+        subtitle: 'Explore our comprehensive game resources',
+        unitStats: 'Unit Stats',
+        unitStatsDesc: 'Complete database of all units with damage, health, and abilities',
+        strategyGuide: 'Strategy Guides',
+        strategyGuideDesc: 'Level-by-level walkthroughs and winning strategies',
+        downloadLinks: 'Download Links',
+        downloadLinksDesc: 'Verified download sources for PC, Steam, and APK',
+        unblockedPlay: 'Play Unblocked',
+        unblockedPlayDesc: 'Working browser versions to play at school or work',
+    },
+
+    // Unit Showcase Section
+    unitShowcase: {
+        title: 'Meet the Units',
+        subtitle: 'Discover all playable units with their stats and abilities',
+        viewDetails: 'View Details',
+        viewAll: 'View All Units',
+    },
+
+    // Play Unblocked Section
+    playUnblocked: {
+        title: 'Play Battle Counter Stickman Unblocked',
+        subtitle: 'Play directly in your browser - no download required',
+        gameTitle: 'Battle Counter Stickman',
+        clickToPlay: 'Click the button below to start playing',
+        startGame: 'Start Game',
+        refresh: 'Refresh',
+        downloadFull: 'Download Full Version',
+        helpText: 'Issues playing? Try refreshing or check our Download Guide.',
+        downloadGuide: 'View Download Guide →',
+    },
+
+    // Quick Links Sidebar
+    quickLinks: {
+        title: 'Quick Links',
+        walkthroughs: 'Walkthroughs',
+        unitDatabase: 'Unit Database',
+        playNow: 'Play Now',
+        downloadApk: 'Download APK',
+        strategyGuide: 'Strategy Guide',
+        community: 'Community',
+    },
 };

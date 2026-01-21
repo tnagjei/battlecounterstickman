@@ -1,8 +1,8 @@
-# My Winter Car Wiki - Robots.txt
-# https://mywintercar.info
+# Battle Counter Stickman Guide - Robots.txt
+# https://battlecounterstickman.online
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://mywintercar.info/sitemap.xml
+Sitemap: https://battlecounterstickman.online/sitemap.xml
