@@ -1,0 +1,200 @@
+/**
+ * src/i18n/fi.ts
+ * Finnish language content dictionary (Suomi)
+ */
+
+import { I18nContent } from './en';
+
+export const fi: I18nContent = {
+    lang: 'fi',
+    langName: 'Suomi',
+
+    // Meta & SEO
+    meta: {
+        title: 'My Winter Car Wiki 2026 - Paras Opas ja Resurssit',
+        description: 'Tutustu kattavaan My Winter Car Wikiin: täydelliset rakennusoppaat, 200+ osatietokanta, selviytymisvinkit ja video-oppaat!',
+        siteName: 'My Winter Car Wiki',
+    },
+
+    // Navbar
+    navbar: {
+        guides: 'Oppaat',
+        mods: 'Modit',
+        faq: 'UKK',
+        blog: 'Blogi',
+        about: 'Tietoa',
+        searchPlaceholder: 'Etsi oppaita...',
+        steam: 'Steam',
+    },
+
+    // Hero Section
+    hero: {
+        title: 'My Winter Car Wiki',
+        subtitle: 'Täydellinen Opas ja Tietokanta',
+        tagline: 'Rakennusoppaat • Osat • Selviytymisvinkit',
+        ctaPrimary: 'Selaa Oppaita',
+        ctaSecondary: 'Näytä Steamissa',
+    },
+
+    // Quick Nav
+    quickNav: {
+        title: 'Pikavalinta',
+        items: {
+            corrisRivett: 'Corris Rivett',
+            partsDatabase: 'Osatietokanta',
+            beginnerGuide: 'Aloittelijan Opas',
+            racingEvents: 'Kilpailut',
+            jobsMoney: 'Työt ja Raha',
+            winterSurvival: 'Talviselviytyminen',
+        },
+    },
+
+    // Features Section
+    features: {
+        title: 'Kaikki Mitä Tarvitset',
+        subtitle: 'Täydelliset oppaat My Winter Car -peliin',
+        buildGuides: 'Rakennusoppaat',
+        partsDatabase: 'Osatietokanta',
+        survival: 'Selviytymisopas',
+        maps: 'Interaktiiviset Kartat',
+        jobs: 'Työ- ja Rahaoppaat',
+        community: 'Yhteisön Vinkit',
+    },
+
+    // Videos Section
+    videos: {
+        title: 'Video-oppaat',
+        subtitle: 'Katso hyödyllisiä opetusvideoita ja pelikuvaa',
+        findMore: 'Löydä lisää videoita YouTubesta',
+    },
+
+    // FAQ Section
+    faq: {
+        title: 'Usein Kysytyt Kysymykset',
+        subtitle: 'Löydä vastauksia yleisiin kysymyksiin',
+        items: [
+            {
+                question: 'Mikä on My Winter Car?',
+                answer: 'My Winter Car on selviytymis- ja autonrakennussimulaatiopeli, joka sijoittuu Suomen maaseudulle talvella 1992.',
+            },
+            {
+                question: 'Miten aloitan Corris Rivettin rakentamisen?',
+                answer: 'Aloita keräämällä osia autotallista, romuttamolta ja paikallisista kaupoista.',
+            },
+            {
+                question: 'Mistä löydän varaosia?',
+                answer: 'Osia löytyy Teimon kaupasta, romuttamolta, korjaamolta ja postimyynnistä.',
+            },
+            {
+                question: 'Miten selviydyn talvesta?',
+                answer: 'Pysy lämpimänä sisällä ja pidä sauna lämpimänä. Syö, juo ja lepää säännöllisesti.',
+            },
+            {
+                question: 'Miten ansaitsen rahaa?',
+                answer: 'Ansaitse rahaa polttopuiden kuljetuksella, taksipalvelulla ja päätyöllä.',
+            },
+            {
+                question: 'Onko tämä wiki virallinen?',
+                answer: 'Ei, tämä on yhteisön ylläpitämä wiki fanien tekemänä faneille.',
+            },
+        ],
+    },
+
+    // WhatIs Section
+    whatIs: {
+        title: 'Mikä on My Winter Car?',
+        description1: 'My Winter Car on selviytymis- ja autonrakennussimulaatiopeli, joka sijoittuu Suomen maaseudulle talvella 1992.',
+        description2: 'Pelaajan on selvittävä ankarassa suomalaisessa talvessa samalla rakentaen Corris Rivett -autoa.',
+        survivalSim: 'Selviytymissim',
+        carBuilding: 'Autonrakennus',
+        finnishWinter: 'Suomalainen Talvi',
+        earlyAccess: 'Aikainen Pääsy',
+        gameStats: 'Pelitiedot',
+        release: 'Julkaisu',
+        developer: 'Kehittäjä',
+        platform: 'Alusta',
+        genre: 'Genre',
+        setting: 'Sijainti',
+        viewOnSteam: 'Näytä Steamissa',
+    },
+
+    // WhyUs Section
+    whyUs: {
+        title: 'Miksi Käyttää Tätä Wikiä?',
+        subtitle: 'Kattavin My Winter Car -resurssi',
+        accurate: 'Tarkka ja Varmennettu',
+        accurateDesc: 'Kaikki oppaat testattu pelissä.',
+        updated: 'Aina Ajantasainen',
+        updatedDesc: 'Sisältö päivitetään jokaisen päivityksen jälkeen.',
+        community: 'Yhteisövetoinen',
+        communityDesc: 'Pelaajien tekemä, pelaajille.',
+        easyNav: 'Helppo Navigoida',
+        easyNavDesc: 'Löydä nopeasti etsimäsi.',
+        noSpoilers: 'Ei Spoilereita',
+        noSpoilersDesc: 'Varoitukset isoista paljastuksista.',
+        fastFree: 'Nopea ja Ilmainen',
+        fastFreeDesc: 'Ei maksumuureja, ei tiliä tarvita.',
+    },
+
+    // About Section
+    about: {
+        title: 'Tietoa Tästä Wikistä',
+        description: 'My Winter Car Wiki on yhteisövetoinen resurssi pelaajien auttamiseen.',
+        madeWithLove: 'Tehty rakkaudella yhteisölle, yhteisön toimesta.',
+        getInTouch: 'Ota Yhteyttä',
+        joinDiscord: 'Liity Discordiimme',
+        discordDesc: 'Keskustele yhteisön kanssa',
+        emailUs: 'Lähetä Sähköpostia',
+    },
+
+    // Footer
+    footer: {
+        copyright: '© {year} My Winter Car Wiki. Ei liity pelin kehittäjiin.',
+        about: 'Tietoa',
+        blog: 'Blogi',
+        help: 'Ohje',
+        faq: 'UKK',
+        topics: 'Kaikki Aiheet',
+        privacy: 'Tietosuojakäytäntö',
+        terms: 'Käyttöehdot',
+    },
+
+    // HowItWorks Section
+    howItWorks: {
+        title: 'Kuinka Käyttää My Winter Car Wikiä',
+        subtitle: 'Aloita kattavista oppaistamme',
+        step1: 'Etsi tai Selaa',
+        step1Desc: 'Käytä hakua tai selaa kategorioita.',
+        step2: 'Lue Opas',
+        step2Desc: 'Seuraa vaiheittaisia ohjeita.',
+        step3: 'Sovella Pelissä',
+        step3Desc: 'Käytä tietoja rakentamiseen.',
+        step4: 'Hallitse Peli',
+        step4Desc: 'Tule asiantuntijaksi.',
+    },
+
+    // Testimonials Section
+    testimonials: {
+        title: 'Mitä Pelaajat Sanovat',
+        subtitle: 'Palautetta yhteisöltä',
+    },
+
+    // Updates Section
+    updates: {
+        title: 'Viimeisimmät Päivitykset',
+        joinCommunity: 'Liity Yhteisöön',
+    },
+
+    // Language Switcher
+    langSwitch: {
+        label: 'Kieli',
+    },
+
+    // Language Suggestion Popup
+    langSuggestion: {
+        available: '{lang} saatavilla',
+        pageInLang: 'Tämä sivu on kielellä {currentLang}. Haluatko nähdä sen kielellä {targetLang}?',
+        switchTo: 'Vaihda kieleen {lang}',
+        stay: 'Pysy',
+    },
+};

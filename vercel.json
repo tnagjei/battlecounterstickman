@@ -1,0 +1,67 @@
+{
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "X-Robots-Tag",
+                    "value": "index, follow"
+                }
+            ]
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/keywords/:path*.html",
+            "destination": "/keywords/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/:lang(fi|sv)/keywords/:path*.html",
+            "destination": "/:lang/keywords/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/keywords/index.html",
+            "destination": "/keywords",
+            "permanent": true
+        },
+        {
+            "source": "/fi/keywords/index.html",
+            "destination": "/fi/keywords",
+            "permanent": true
+        },
+        {
+            "source": "/sv/keywords/index.html",
+            "destination": "/sv/keywords",
+            "permanent": true
+        },
+        {
+            "source": "/about.html",
+            "destination": "/about",
+            "permanent": true
+        },
+        {
+            "source": "/help.html",
+            "destination": "/help",
+            "permanent": true
+        },
+        {
+            "source": "/privacy.html",
+            "destination": "/privacy",
+            "permanent": true
+        },
+        {
+            "source": "/terms.html",
+            "destination": "/terms",
+            "permanent": true
+        },
+        {
+            "source": "/blog.html",
+            "destination": "/blog",
+            "permanent": true
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+/* My Winter Car Wiki - Global Styles */
+
+/* Base resets and custom utilities */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #0f0f23;
+  --bg-deep: #0a0a1a;
+  --surface-1: rgba(20, 20, 40, 0.78);
+  --surface-2: rgba(28, 28, 54, 0.82);
+  --surface-3: rgba(36, 36, 64, 0.9);
+  --primary: #7c3aed;
+  --secondary: #a78bfa;
+  --cta: #f43f5e;
+  --text: #e2e8f0;
+  --border: #4c1d95;
+  --accent-cyan: #22d3ee;
+  --accent-sun: #ffaa00;
+  --font-display: 'Russo One', sans-serif;
+  --font-body: 'Chakra Petch', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background:
+    radial-gradient(1200px circle at 15% 10%, rgba(124, 58, 237, 0.18), transparent 45%),
+    radial-gradient(900px circle at 85% 0%, rgba(244, 63, 94, 0.16), transparent 40%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-deep) 100%);
+  color: var(--text);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 120px 120px;
+  opacity: 0.2;
+  mix-blend-mode: screen;
+  z-index: 0;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid var(--accent-cyan);
+  outline-offset: 2px;
+}
+
+/* Selection styles */
+::selection {
+  background-color: var(--cta);
+  color: #0b0b18;
+}
+
+/* Link transitions */
+a {
+  transition: color 0.2s ease;
+}
+
+/* Button focus states */
+button:focus-visible {
+  outline: 2px solid var(--accent-cyan);
+  outline-offset: 2px;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+
+.panel {
+  background: var(--surface-1);
+  border: 1px solid rgba(124, 58, 237, 0.25);
+  box-shadow: 0 24px 60px rgba(8, 8, 24, 0.45);
+  backdrop-filter: blur(10px);
+}
+
+.panel-strong {
+  background: var(--surface-3);
+  border: 1px solid rgba(124, 58, 237, 0.35);
+}
+
+.chip {
+  background: rgba(124, 58, 237, 0.15);
+  border: 1px solid rgba(124, 58, 237, 0.35);
+  color: var(--secondary);
+}
+
+.btn-primary {
+  background: var(--cta);
+  color: #0b0b18;
+  box-shadow: 0 12px 30px rgba(244, 63, 94, 0.35);
+}
+
+.btn-primary:hover {
+  background: #ff5b72;
+}
+
+.btn-secondary {
+  border: 1px solid rgba(167, 139, 250, 0.5);
+  background: rgba(15, 15, 35, 0.55);
+  color: var(--text);
+}
+
+.btn-secondary:hover {
+  border-color: rgba(34, 211, 238, 0.7);
+  color: #f8fafc;
+}
+
+.glow-ring {
+  box-shadow: 0 0 0 1px rgba(167, 139, 250, 0.4), 0 0 40px rgba(124, 58, 237, 0.2);
+}
+
+.section-cut {
+  position: relative;
+}
+
+.section-cut::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(167, 139, 250, 0.4), transparent);
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out both;
+}
+
+.animate-float {
+  animation: float-slow 12s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: pulse-glow 2.8s ease-in-out infinite;
+}
+
+/* Language suggestion banner animation */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 12px 30px rgba(244, 63, 94, 0.32);
+  }
+
+  50% {
+    box-shadow: 0 18px 40px rgba(244, 63, 94, 0.5);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-float,
+  .animate-glow {
+    animation: none;
+  }
+}
