@@ -10,6 +10,7 @@
 - Features.tsx：功能特色卡片区
 - FloatingMenu.tsx：右侧浮动快捷菜单
 - Footer.tsx：站点页脚与互链图标
+- GameInfoTable.tsx：游戏详细信息表格（SEO 语义化）
 - Hero.tsx：首屏主视觉与主 CTA
 - HowItWorks.tsx：使用流程步骤区
 - LanguageSuggestion.tsx：语言切换提示条

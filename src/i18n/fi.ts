@@ -243,4 +243,17 @@ export const fi: I18nContent = {
         strategyGuide: 'Strategy Guide',
         community: 'Community',
     },
+    // Game Info Table
+    gameInfo: {
+        statusLabel: 'Tila',
+        statusValue: 'Aktiivinen / Trendaava',
+        platformLabel: 'Alusta',
+        platformValue: 'PC (Steam), Android (APK), Web (Unblocked)',
+        priceLabel: 'Hinta',
+        priceValue: 'Ilmainen Demo / Maksullinen (Steam)',
+        lastUpdateLabel: 'Viimeisin päivitys',
+        lastUpdateValue: 'Tammikuu 2026',
+        developerLabel: 'Kehittäjä',
+        developerValue: '(Placeholder)',
+    },
 };

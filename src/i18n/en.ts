@@ -29,7 +29,7 @@ export const en = {
     hero: {
         title: 'Battle Counter Stickman',
         subtitle: 'The Complete Strategy & Game Hub',
-        tagline: 'The #1 resource for strategies, unit stats, and download guides for the trending stickman simulator.',
+        tagline: 'The #1 definitive resource for strategies, unit stats, and download guides for the trending Battle Counter Stickman simulator. Master the battlefield today.',
         ctaPrimary: 'Play Unblocked / Browser',
         ctaSecondary: 'Download on Steam / PC',
     },
@@ -49,14 +49,14 @@ export const en = {
 
     // Features Section
     features: {
-        title: 'Game Features & Updates',
-        subtitle: 'Everything you need to master Battle Counter Stickman',
-        buildGuides: 'Strategy Guides',
-        partsDatabase: 'Unit Database',
-        survival: 'Level Tips',
-        maps: 'Formation Tactics',
-        jobs: 'Download Links',
-        community: 'Community Tips',
+        title: 'Battle Counter Stickman Features',
+        subtitle: 'Everything you need to master Battle Counter Stickman and dominate the leaderboards',
+        buildGuides: 'Advanced Strategy Guides',
+        partsDatabase: 'Complete Unit Database',
+        survival: 'Expert Level Tips',
+        maps: 'Winning Formation Tactics',
+        jobs: 'Verified Download Links',
+        community: 'Active Community Tips',
     },
 
     // Videos Section
@@ -68,32 +68,32 @@ export const en = {
 
     // FAQ Section
     faq: {
-        title: 'Frequently Asked Questions',
-        subtitle: 'Find answers to common questions about Battle Counter Stickman',
+        title: 'Frequently Asked Questions about Battle Counter Stickman',
+        subtitle: 'Find answers to common questions about Battle Counter Stickman gameplay, downloads, and strategy.',
         items: [
             {
                 question: 'What is Battle Counter Stickman?',
-                answer: 'Battle Counter Stickman (Battle Simulator: Counter Stickman) is a popular strategy game where you deploy stickman units to defeat enemy forces. Plan your formations and counter enemy strategies to win battles.',
+                answer: 'Battle Counter Stickman (also known as Battle Simulator: Counter Stickman) is a highly popular real-time strategy game where you act as a commander deploying stickman armies. The goal of Battle Counter Stickman is to choose the right units to counter enemy waves. With hundreds of levels, Battle Counter Stickman tests your tactical skills in positioning and unit management.',
             },
             {
-                question: 'How do I download Battle Counter Stickman?',
-                answer: 'You can download Battle Counter Stickman from Steam for PC, or from Google Play and APK sites for Android devices. Check our Download Links section for verified sources.',
+                question: 'How do I download Battle Counter Stickman for free?',
+                answer: 'You can download Battle Counter Stickman for free from verified sources. For PC users, Battle Counter Stickman is available via Steam (paid) or as a free demo. Android users can find the Battle Counter Stickman APK on Google Play or trusted third-party sites. Check our "Download Links" section above for the safest ways to get Battle Counter Stickman.',
             },
             {
-                question: 'Can I play Battle Counter Stickman unblocked?',
-                answer: 'Yes! Many browser-based versions allow you to play Battle Counter Stickman unblocked at school or work. Check our Play Unblocked section for working links.',
+                question: 'Can I play Battle Counter Stickman unblocked at school?',
+                answer: 'Yes! If you are at school or work, you can play Battle Counter Stickman unblocked directly in your web browser without downloading any files. Our "Play Unblocked" section features a working iframe of the Battle Counter Stickman web version, optimized for quick gameplay sessions.',
             },
             {
                 question: 'What are the best units in Battle Counter Stickman?',
-                answer: 'The best units depend on your strategy. Tanks are great for frontline, Archers for long-range, and Mages for area damage. Check our Unit Database for detailed stats.',
+                answer: 'In Battle Counter Stickman, the "best" unit depends on the enemy composition. However, the Tank is essential for absorbing damage, while the Archer provides crucial ranged support. The Mage unit in Battle Counter Stickman deals massive area damage, making it perfect for clearing large groups of weak enemies. Consult our Unit Database for full stats on every Battle Counter Stickman character.',
             },
             {
-                question: 'How do I beat difficult levels?',
-                answer: 'Focus on unit counters - use anti-air against flying units, tanks against melee. Check our Strategy Guides for level-specific tips.',
+                question: 'How do I beat level 50 in Battle Counter Stickman?',
+                answer: 'Beating difficult levels in Battle Counter Stickman requires specific counter-strategies. For Level 50, try using a formation of 3 Tanks in the front and 5 Archers in the back. This is a classic Battle Counter Stickman strategy that balances defense and offense. If you are still stuck, watch our "Video Guides" for a visual walkthrough of this Battle Counter Stickman mission.',
             },
             {
-                question: 'Is this guide official?',
-                answer: 'No, this is a community-driven fan wiki created by passionate players for the Battle Counter Stickman community.',
+                question: 'Is Battle Counter Stickman available on iOS?',
+                answer: 'Currently, Battle Counter Stickman is primarily focused on Android and PC platforms. However, iOS users can often play the Battle Counter Stickman web version through Safari. Stay tuned to our blog for updates on an official Battle Counter Stickman iOS release.',
             },
         ],
     },
@@ -136,12 +136,12 @@ export const en = {
 
     // About Section
     about: {
-        title: 'About This Guide',
-        description: 'Battle Counter Stickman Guide is a community-driven resource dedicated to helping players master the game.',
-        madeWithLove: 'Made with love by the community, for the community.',
+        title: 'About Battle Counter Stickman Guide',
+        description: 'Battle Counter Stickman Guide is the premier community-driven resource dedicated to helping players master every aspect of Battle Counter Stickman. Whether you are looking for the best unit formations, level walkthroughs, or the latest updates for Battle Simulator: Counter Stickman, our wiki has you covered.',
+        madeWithLove: 'Made with love by the Battle Counter Stickman community, for the community.',
         getInTouch: 'Get In Touch',
         joinDiscord: 'Join Our Discord',
-        discordDesc: 'Chat with the community and get help',
+        discordDesc: 'Chat with other Battle Counter Stickman players and get help',
         emailUs: 'Email Us',
     },
 
@@ -240,6 +240,19 @@ export const en = {
         downloadApk: 'Download APK',
         strategyGuide: 'Strategy Guide',
         community: 'Community',
+    },
+    // Game Info Table
+    gameInfo: {
+        statusLabel: 'Status',
+        statusValue: 'Active / Trending',
+        platformLabel: 'Platform',
+        platformValue: 'PC (Steam), Android (APK), Web (Unblocked)',
+        priceLabel: 'Price',
+        priceValue: 'Free Demo / Paid (Steam)',
+        lastUpdateLabel: 'Last Update',
+        lastUpdateValue: 'January 2026',
+        developerLabel: 'Developer',
+        developerValue: '(Placeholder)',
     },
 };
 

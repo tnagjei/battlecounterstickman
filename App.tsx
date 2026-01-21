@@ -5,6 +5,7 @@ import React from 'react';
 import { LanguageProvider } from './src/contexts/LanguageContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import GameInfoTable from './components/GameInfoTable';
 import WhatIs from './components/WhatIs';
 import Features from './components/Features';
 import Videos from './components/Videos';
@@ -24,6 +25,8 @@ const App: React.FC = () => {
         <main>
           {/* Section 1: Hero */}
           <Hero />
+          {/* Section 1.5: Game Info Table */}
+          <GameInfoTable />
           {/* Section 2: What is Battle Counter Stickman? */}
           <WhatIs />
           {/* Section 3: Video Guides */}

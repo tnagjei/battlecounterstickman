@@ -243,4 +243,17 @@ export const sv: I18nContent = {
         strategyGuide: 'Strategy Guide',
         community: 'Community',
     },
+    // Game Info Table
+    gameInfo: {
+        statusLabel: 'Status',
+        statusValue: 'Aktiv / Trendande',
+        platformLabel: 'Plattform',
+        platformValue: 'PC (Steam), Android (APK), Webb (Unblocked)',
+        priceLabel: 'Pris',
+        priceValue: 'Gratis Demo / Betald (Steam)',
+        lastUpdateLabel: 'Senaste uppdatering',
+        lastUpdateValue: 'Januari 2026',
+        developerLabel: 'Utvecklare',
+        developerValue: '(Placeholder)',
+    },
 };
