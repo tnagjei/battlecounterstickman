@@ -30,7 +30,7 @@ const WikiPreview: React.FC = () => {
             icon: <Download className="w-8 h-8" />,
             title: content.wikiPreview.downloadLinks,
             description: content.wikiPreview.downloadLinksDesc,
-            href: "#play",
+            href: "#downloads",
             color: "text-[#d14d28]",
             borderColor: "hover:border-[#d14d28]/50"
         },

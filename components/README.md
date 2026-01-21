@@ -6,6 +6,7 @@
 
 ## Files
 - About.tsx：关于我们与联系/法律信息区块
+- Downloads.tsx：多平台下载卡片展示区块 (Steam/Android/iOS)
 - FAQ.tsx：常见问题折叠列表
 - Features.tsx：功能特色卡片区
 - FloatingMenu.tsx：右侧浮动快捷菜单

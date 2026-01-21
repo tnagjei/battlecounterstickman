@@ -11,6 +11,7 @@ import Features from './components/Features';
 import Videos from './components/Videos';
 import WikiPreview from './components/WikiPreview';
 import UnitShowcase from './components/UnitShowcase';
+import Downloads from './components/Downloads';
 import PlayUnblocked from './components/PlayUnblocked';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
@@ -37,9 +38,13 @@ const App: React.FC = () => {
           <WikiPreview />
           {/* Section 6: Unit Showcase Grid */}
           <UnitShowcase />
-          {/* Section 7: Play Unblocked (iframe) */}
+
+          {/* Section 7: Downloads */}
+          <Downloads />
+
+          {/* Section 8: Play Unblocked (iframe) */}
           <PlayUnblocked />
-          {/* Section 8: FAQ */}
+          {/* Section 9: FAQ */}
           <FAQ />
         </main>
 

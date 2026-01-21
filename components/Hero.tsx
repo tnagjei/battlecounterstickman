@@ -68,15 +68,15 @@ const Hero: React.FC = () => {
               <span className="text-xs uppercase tracking-[0.3em] text-soft">BCS</span>
             </div>
             <div className="grid grid-cols-2 gap-3">
-              <a href={getLocalizedPath('/keywords/unit-stats')} className="flex items-center gap-3 p-3 rounded-xl bg-white/70 border border-[#1f1b16]/10 hover:border-[#1c7c7b]/50 transition-colors">
+              <a href="#units" className="flex items-center gap-3 p-3 rounded-xl bg-white/70 border border-[#1f1b16]/10 hover:border-[#1c7c7b]/50 transition-colors">
                 <Swords className="w-5 h-5 text-[#d14d28]" />
                 <span className="text-sm text-ink">{content.quickNav.items.corrisRivett}</span>
               </a>
-              <a href={getLocalizedPath('/keywords/strategy')} className="flex items-center gap-3 p-3 rounded-xl bg-white/70 border border-[#1f1b16]/10 hover:border-[#1c7c7b]/50 transition-colors">
+              <a href="#wiki" className="flex items-center gap-3 p-3 rounded-xl bg-white/70 border border-[#1f1b16]/10 hover:border-[#1c7c7b]/50 transition-colors">
                 <Shield className="w-5 h-5 text-[#1c7c7b]" />
                 <span className="text-sm text-ink">{content.quickNav.items.partsDatabase}</span>
               </a>
-              <a href={getLocalizedPath('/keywords/download')} className="flex items-center gap-3 p-3 rounded-xl bg-white/70 border border-[#1f1b16]/10 hover:border-[#1c7c7b]/50 transition-colors">
+              <a href="#downloads" className="flex items-center gap-3 p-3 rounded-xl bg-white/70 border border-[#1f1b16]/10 hover:border-[#1c7c7b]/50 transition-colors">
                 <Target className="w-5 h-5 text-[#c08b2a]" />
                 <span className="text-sm text-ink">{content.quickNav.items.jobsMoney}</span>
               </a>

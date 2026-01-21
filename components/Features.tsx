@@ -46,7 +46,7 @@ const Features: React.FC = () => {
             icon: <Download className="w-8 h-8" />,
             title: content.features.jobs,
             description: "Verified download sources for PC, Steam, and APK",
-            href: "#play",
+            href: "#downloads",
             accent: "text-[#d14d28]",
             hover: "group-hover:text-[#d14d28]"
         },

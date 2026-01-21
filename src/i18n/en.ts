@@ -231,6 +231,21 @@ export const en = {
         downloadGuide: 'View Download Guide →',
     },
 
+    // Downloads Section
+    downloads: {
+        title: 'Download Battle Counter Stickman',
+        subtitle: 'Get the full game experience on your preferred platform',
+        pc: 'PC / Windows',
+        pcDesc: 'Get the ultimate version on Steam',
+        android: 'Android / APK',
+        androidDesc: 'Play on the go with your mobile device',
+        ios: 'iOS / Apple',
+        iosDesc: 'Coming soon to App Store',
+        download: 'Download',
+        steam: 'Get on Steam',
+        playStore: 'Get on Google Play',
+    },
+
     // Quick Links Sidebar
     quickLinks: {
         title: 'Quick Links',
@@ -248,7 +263,7 @@ export const en = {
         platformLabel: 'Platform',
         platformValue: 'PC (Steam), Android (APK), Web (Unblocked)',
         priceLabel: 'Price',
-        priceValue: 'Free Demo / Paid (Steam)',
+        priceValue: 'Free Demo / Paid (Steam) · Limited free until 2026-01-23',
         lastUpdateLabel: 'Last Update',
         lastUpdateValue: 'January 2026',
         developerLabel: 'Developer',

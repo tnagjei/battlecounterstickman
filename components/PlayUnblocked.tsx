@@ -53,7 +53,7 @@ const PlayUnblocked: React.FC = () => {
                             </button>
                         </div>
                         <a
-                            href={getLocalizedPath("/keywords/download")}
+                            href="#downloads"
                             className="flex items-center gap-2 text-[#d14d28] hover:text-[#b94526] text-sm transition-colors"
                         >
                             <Download className="w-4 h-4" />
@@ -69,7 +69,7 @@ const PlayUnblocked: React.FC = () => {
                         {content.playUnblocked.helpText}
                     </p>
                     <a
-                        href={getLocalizedPath("/keywords/download")}
+                        href="#downloads"
                         className="text-[#d14d28] hover:text-[#b94526] text-sm underline mt-2 inline-block"
                     >
                         {content.playUnblocked.downloadGuide}

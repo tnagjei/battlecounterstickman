@@ -222,15 +222,30 @@ export const fi: I18nContent = {
 
     // Play Unblocked Section
     playUnblocked: {
-        title: 'Play Battle Counter Stickman Unblocked',
-        subtitle: 'Play directly in your browser - no download required',
+        title: 'Pelaa Battle Counter Stickman Unblocked',
+        subtitle: 'Pelaa suoraan selaimessasi - ei latausta',
         gameTitle: 'Battle Counter Stickman',
-        clickToPlay: 'Click the button below to start playing',
-        startGame: 'Start Game',
-        refresh: 'Refresh',
-        downloadFull: 'Download Full Version',
-        helpText: 'Issues playing? Try refreshing or check our Download Guide.',
-        downloadGuide: 'View Download Guide →',
+        clickToPlay: 'Napsauta alla olevaa painiketta pelataksesi',
+        startGame: 'Aloita Peli',
+        refresh: 'Päivitä',
+        downloadFull: 'Lataa Täysi Versio',
+        helpText: 'Ongelmia pelatessa? Kokeile päivittää tai katso latausoppaamme.',
+        downloadGuide: 'Katso Latausopas →',
+    },
+
+    // Downloads Section
+    downloads: {
+        title: 'Lataa Battle Counter Stickman',
+        subtitle: 'Hanki täysi pelikokemus haluamallesi alustalle',
+        pc: 'PC / Windows',
+        pcDesc: 'Hanki lopullinen versio Steamista',
+        android: 'Android / APK',
+        androidDesc: 'Pelaa missä vain mobiililaitteellasi',
+        ios: 'iOS / Apple',
+        iosDesc: 'Tulossa pian App Storeen',
+        download: 'Lataa',
+        steam: 'Hanki Steamista',
+        playStore: 'Hanki Google Playsta',
     },
 
     // Quick Links Sidebar
@@ -250,7 +265,7 @@ export const fi: I18nContent = {
         platformLabel: 'Alusta',
         platformValue: 'PC (Steam), Android (APK), Web (Unblocked)',
         priceLabel: 'Hinta',
-        priceValue: 'Ilmainen Demo / Maksullinen (Steam)',
+        priceValue: 'Ilmainen Demo / Maksullinen (Steam) · Limited free until 2026-01-23',
         lastUpdateLabel: 'Viimeisin päivitys',
         lastUpdateValue: 'Tammikuu 2026',
         developerLabel: 'Kehittäjä',

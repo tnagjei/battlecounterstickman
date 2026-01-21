@@ -222,15 +222,30 @@ export const sv: I18nContent = {
 
     // Play Unblocked Section
     playUnblocked: {
-        title: 'Play Battle Counter Stickman Unblocked',
-        subtitle: 'Play directly in your browser - no download required',
+        title: 'Spela Battle Counter Stickman Unblocked',
+        subtitle: 'Spela direkt i din webbläsare - ingen nedladdning krävs',
         gameTitle: 'Battle Counter Stickman',
-        clickToPlay: 'Click the button below to start playing',
-        startGame: 'Start Game',
-        refresh: 'Refresh',
-        downloadFull: 'Download Full Version',
-        helpText: 'Issues playing? Try refreshing or check our Download Guide.',
-        downloadGuide: 'View Download Guide →',
+        clickToPlay: 'Klicka på knappen nedan för att börja spela',
+        startGame: 'Starta Spel',
+        refresh: 'Uppdatera',
+        downloadFull: 'Ladda Ner Fullständig Version',
+        helpText: 'Problem att spela? Försök uppdatera eller kolla vår nedladdningsguide.',
+        downloadGuide: 'Visa Nedladdningsguide →',
+    },
+
+    // Downloads Section
+    downloads: {
+        title: 'Ladda Ner Battle Counter Stickman',
+        subtitle: 'Få den fullständiga spelupplevelsen på din föredragna plattform',
+        pc: 'PC / Windows',
+        pcDesc: 'Få den ultimata versionen på Steam',
+        android: 'Android / APK',
+        androidDesc: 'Spela när du är på språng med din mobila enhet',
+        ios: 'iOS / Apple',
+        iosDesc: 'Kommer snart till App Store',
+        download: 'Ladda Ner',
+        steam: 'Hämta på Steam',
+        playStore: 'Hämta på Google Play',
     },
 
     // Quick Links Sidebar
@@ -250,7 +265,7 @@ export const sv: I18nContent = {
         platformLabel: 'Plattform',
         platformValue: 'PC (Steam), Android (APK), Webb (Unblocked)',
         priceLabel: 'Pris',
-        priceValue: 'Gratis Demo / Betald (Steam)',
+        priceValue: 'Gratis Demo / Betald (Steam) · Limited free until 2026-01-23',
         lastUpdateLabel: 'Senaste uppdatering',
         lastUpdateValue: 'Januari 2026',
         developerLabel: 'Utvecklare',
